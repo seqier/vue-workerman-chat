@@ -1,4 +1,4 @@
-##安装说明 
+## 安装说明 
 
 * chat_server 是使用了workerman实现的服务端，直接点击start_for_win.bat 启动即可，没有在linux下面测
 * chat_client 是前端，基于vue实现
