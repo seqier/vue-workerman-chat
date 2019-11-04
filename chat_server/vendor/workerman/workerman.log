@@ -1,0 +1,1328 @@
+2019-10-25 08:28:48 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:YourAppBusinessWorker:0
+2019-10-25 08:28:49 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:YourAppBusinessWorker:0
+2019-10-25 08:28:50 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:YourAppBusinessWorker:0
+2019-10-25 08:28:51 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:YourAppBusinessWorker:0
+2019-10-25 08:28:52 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:YourAppBusinessWorker:0
+2019-10-25 08:28:53 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:YourAppBusinessWorker:0
+2019-10-25 08:28:54 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:YourAppBusinessWorker:0
+2019-10-25 08:28:55 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:YourAppBusinessWorker:0
+2019-10-25 08:28:56 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:YourAppBusinessWorker:0
+2019-10-25 08:28:57 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:YourAppBusinessWorker:0
+2019-10-25 08:28:58 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:YourAppBusinessWorker:0
+2019-10-25 08:28:59 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:YourAppBusinessWorker:0
+2019-10-25 08:29:00 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:YourAppBusinessWorker:0
+2019-10-25 08:29:01 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:YourAppBusinessWorker:0
+2019-10-25 08:43:00 pid:1 Error: Access to undeclared static property: Workerman\Worker::$_config in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:56
+Stack trace:
+#0 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#1 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#2 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2367): GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#6 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#7 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#8 {main}
+2019-10-25 08:43:01 pid:1 Worker process terminated
+2019-10-25 08:43:02 pid:1 Error: Access to undeclared static property: Workerman\Worker::$_config in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:56
+Stack trace:
+#0 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#1 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#2 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2367): GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#6 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#7 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#8 {main}
+2019-10-25 08:43:03 pid:1 Worker process terminated
+2019-10-25 08:43:04 pid:1 Error: Access to undeclared static property: Workerman\Worker::$_config in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:56
+Stack trace:
+#0 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#1 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#2 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2367): GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#6 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#7 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#8 {main}
+2019-10-25 08:46:36 pid:1 Error: Call to a member function set() on null in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:127
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b54000...', '{"type": "relog...')
+#1 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type": "relog...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#5 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#6 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#9 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#10 {main}
+2019-10-25 08:46:36 pid:1 Worker process terminated
+2019-10-25 08:46:40 pid:1 Error: Call to a member function set() on null in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:127
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#1 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#5 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#6 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#9 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#10 {main}
+2019-10-25 08:46:40 pid:1 Worker process terminated
+2019-10-25 08:47:06 pid:1 Error: Call to a member function set() on null in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:127
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b54000...', '{"type": "ping"...')
+#1 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type": "ping"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#5 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#6 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#9 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#10 {main}
+2019-10-25 08:47:06 pid:1 Worker process terminated
+2019-10-25 08:47:14 pid:1 Error: Call to undefined method GatewayWorker\Lib\Gateway::error() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:199
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(166): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 08:47:14 pid:1 Worker process terminated
+2019-10-25 08:47:23 pid:1 Error: Call to undefined method GatewayWorker\Lib\Gateway::error() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:199
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(166): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 08:47:23 pid:1 Worker process terminated
+2019-10-25 08:48:00 pid:1 Error: Call to undefined method GatewayWorker\Lib\Gateway::error() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:199
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(166): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 08:48:00 pid:1 Worker process terminated
+2019-10-25 08:48:01 pid:1 Error: Call to undefined method GatewayWorker\Lib\Gateway::error() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:199
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(166): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 08:48:01 pid:1 Worker process terminated
+2019-10-25 08:48:03 pid:1 Error: Call to undefined method GatewayWorker\Lib\Gateway::error() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:199
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(166): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 08:48:03 pid:1 Worker process terminated
+2019-10-25 08:48:09 pid:1 Error: Call to undefined method GatewayWorker\Lib\Gateway::error() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:199
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(166): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 08:48:09 pid:1 Worker process terminated
+2019-10-25 08:48:10 pid:1 Error: Call to undefined method GatewayWorker\Lib\Gateway::error() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:199
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(166): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 08:48:10 pid:1 Worker process terminated
+2019-10-25 08:56:40 pid:1 Error: Access to undeclared static property: Workerman\Worker::$_config in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:241
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(151): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 08:56:40 pid:1 Worker process terminated
+2019-10-25 08:57:54 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:258
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(151): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 08:57:54 pid:1 Worker process terminated
+2019-10-25 09:09:48 pid:1 Predis\Response\ServerException: WRONGTYPE Operation against a key holding the wrong kind of value in D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php:370
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(335): Predis\Client->onErrorResponse(Object(Predis\Command\StringGet), Object(Predis\Response\Error))
+#1 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(314): Predis\Client->executeCommand(Object(Predis\Command\StringGet))
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(373): Predis\Client->__call('get', Array)
+#3 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(201): Events::getAllUserInfo()
+#4 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(167): Events::logout('7f0000010b54000...', Array)
+#5 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"logout...')
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"logout...')
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#10 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#11 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#12 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#13 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#14 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#15 {main}
+2019-10-25 09:09:48 pid:1 Worker process terminated
+2019-10-25 09:09:49 pid:1 Predis\Response\ServerException: WRONGTYPE Operation against a key holding the wrong kind of value in D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php:370
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(335): Predis\Client->onErrorResponse(Object(Predis\Command\StringGet), Object(Predis\Response\Error))
+#1 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(314): Predis\Client->executeCommand(Object(Predis\Command\StringGet))
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(373): Predis\Client->__call('get', Array)
+#3 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(201): Events::getAllUserInfo()
+#4 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(167): Events::logout('7f0000010b54000...', Array)
+#5 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"logout...')
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"logout...')
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#10 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#11 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#12 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#13 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#14 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#15 {main}
+2019-10-25 09:09:49 pid:1 Worker process terminated
+2019-10-25 09:09:55 pid:1 Predis\Response\ServerException: WRONGTYPE Operation against a key holding the wrong kind of value in D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php:370
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(335): Predis\Client->onErrorResponse(Object(Predis\Command\StringGet), Object(Predis\Response\Error))
+#1 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(314): Predis\Client->executeCommand(Object(Predis\Command\StringGet))
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(373): Predis\Client->__call('get', Array)
+#3 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(201): Events::getAllUserInfo()
+#4 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(167): Events::logout('7f0000010b54000...', Array)
+#5 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"logout...')
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"logout...')
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#10 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#11 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#12 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#13 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#14 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#15 {main}
+2019-10-25 09:09:55 pid:1 Worker process terminated
+2019-10-25 09:10:00 pid:1 Predis\Response\ServerException: WRONGTYPE Operation against a key holding the wrong kind of value in D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php:370
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(335): Predis\Client->onErrorResponse(Object(Predis\Command\StringGet), Object(Predis\Response\Error))
+#1 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(314): Predis\Client->executeCommand(Object(Predis\Command\StringGet))
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(373): Predis\Client->__call('get', Array)
+#3 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(201): Events::getAllUserInfo()
+#4 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(167): Events::logout('7f0000010b54000...', Array)
+#5 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"logout...')
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"logout...')
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#10 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#11 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#12 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#13 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#14 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#15 {main}
+2019-10-25 09:10:00 pid:1 Worker process terminated
+2019-10-25 09:10:02 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-25 09:10:02 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-25 09:12:06 pid:1 Predis\Response\ServerException: WRONGTYPE Operation against a key holding the wrong kind of value in D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php:370
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(335): Predis\Client->onErrorResponse(Object(Predis\Command\StringGet), Object(Predis\Response\Error))
+#1 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(314): Predis\Client->executeCommand(Object(Predis\Command\StringGet))
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(375): Predis\Client->__call('get', Array)
+#3 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(203): Events::getAllUserInfo()
+#4 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(167): Events::logout('7f0000010b54000...', Array)
+#5 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"logout...')
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"logout...')
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#10 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#11 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#12 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#13 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#14 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#15 {main}
+2019-10-25 09:12:06 pid:1 Worker process terminated
+2019-10-25 09:12:11 pid:1 Predis\Response\ServerException: WRONGTYPE Operation against a key holding the wrong kind of value in D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php:370
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(335): Predis\Client->onErrorResponse(Object(Predis\Command\StringGet), Object(Predis\Response\Error))
+#1 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(314): Predis\Client->executeCommand(Object(Predis\Command\StringGet))
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(375): Predis\Client->__call('get', Array)
+#3 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(203): Events::getAllUserInfo()
+#4 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(167): Events::logout('7f0000010b54000...', Array)
+#5 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"logout...')
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"logout...')
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#10 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#11 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#12 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#13 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#14 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#15 {main}
+2019-10-25 09:12:11 pid:1 Worker process terminated
+2019-10-25 09:13:31 pid:1 Predis\Response\ServerException: WRONGTYPE Operation against a key holding the wrong kind of value in D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php:370
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(335): Predis\Client->onErrorResponse(Object(Predis\Command\StringGet), Object(Predis\Response\Error))
+#1 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(314): Predis\Client->executeCommand(Object(Predis\Command\StringGet))
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(378): Predis\Client->__call('get', Array)
+#3 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(206): Events::getAllUserInfo()
+#4 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(170): Events::logout('7f0000010b54000...', Array)
+#5 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"logout...')
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"logout...')
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#10 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#11 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#12 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#13 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#14 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#15 {main}
+2019-10-25 09:13:31 pid:1 Worker process terminated
+2019-10-25 09:16:29 pid:1 Predis\Response\ServerException: WRONGTYPE Operation against a key holding the wrong kind of value in D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php:370
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(335): Predis\Client->onErrorResponse(Object(Predis\Command\StringGet), Object(Predis\Response\Error))
+#1 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(314): Predis\Client->executeCommand(Object(Predis\Command\StringGet))
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(378): Predis\Client->__call('get', Array)
+#3 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(206): Events::getAllUserInfo()
+#4 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(170): Events::logout('7f0000010b54000...', Array)
+#5 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"logout...')
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"logout...')
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#10 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#11 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#12 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#13 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#14 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#15 {main}
+2019-10-25 09:16:29 pid:1 Worker process terminated
+2019-10-25 09:16:37 pid:1 Predis\Response\ServerException: WRONGTYPE Operation against a key holding the wrong kind of value in D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php:370
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(335): Predis\Client->onErrorResponse(Object(Predis\Command\StringGet), Object(Predis\Response\Error))
+#1 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(314): Predis\Client->executeCommand(Object(Predis\Command\StringGet))
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(379): Predis\Client->__call('get', Array)
+#3 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(206): Events::getAllUserInfo()
+#4 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(170): Events::logout('7f0000010b54000...', Array)
+#5 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"logout...')
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"logout...')
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#10 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#11 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#12 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#13 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#14 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#15 {main}
+2019-10-25 09:16:37 pid:1 Worker process terminated
+2019-10-25 09:17:24 pid:1 Predis\Response\ServerException: WRONGTYPE Operation against a key holding the wrong kind of value in D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php:370
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(335): Predis\Client->onErrorResponse(Object(Predis\Command\StringGet), Object(Predis\Response\Error))
+#1 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(314): Predis\Client->executeCommand(Object(Predis\Command\StringGet))
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(385): Predis\Client->__call('get', Array)
+#3 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(212): Events::getAllUserInfo()
+#4 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(170): Events::logout('7f0000010b54000...', Array)
+#5 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"logout...')
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"logout...')
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#10 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#11 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#12 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#13 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#14 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#15 {main}
+2019-10-25 09:17:24 pid:1 Worker process terminated
+2019-10-25 09:17:27 pid:1 Predis\Response\ServerException: WRONGTYPE Operation against a key holding the wrong kind of value in D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php:370
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(335): Predis\Client->onErrorResponse(Object(Predis\Command\StringGet), Object(Predis\Response\Error))
+#1 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(314): Predis\Client->executeCommand(Object(Predis\Command\StringGet))
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(385): Predis\Client->__call('get', Array)
+#3 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(212): Events::getAllUserInfo()
+#4 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(170): Events::logout('7f0000010b54000...', Array)
+#5 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"logout...')
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"logout...')
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#10 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#11 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#12 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#13 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#14 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#15 {main}
+2019-10-25 09:17:27 pid:1 Worker process terminated
+2019-10-25 09:18:05 pid:1 Predis\Response\ServerException: WRONGTYPE Operation against a key holding the wrong kind of value in D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php:370
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(335): Predis\Client->onErrorResponse(Object(Predis\Command\StringGet), Object(Predis\Response\Error))
+#1 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(314): Predis\Client->executeCommand(Object(Predis\Command\StringGet))
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(388): Predis\Client->__call('get', Array)
+#3 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(215): Events::getAllUserInfo()
+#4 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(170): Events::logout('7f0000010b54000...', Array)
+#5 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"logout...')
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"logout...')
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#10 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#11 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#12 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#13 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#14 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#15 {main}
+2019-10-25 09:18:05 pid:1 Worker process terminated
+2019-10-25 09:19:51 pid:1 Predis\Response\ServerException: WRONGTYPE Operation against a key holding the wrong kind of value in D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php:370
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(335): Predis\Client->onErrorResponse(Object(Predis\Command\StringGet), Object(Predis\Response\Error))
+#1 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(314): Predis\Client->executeCommand(Object(Predis\Command\StringGet))
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(390): Predis\Client->__call('get', Array)
+#3 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(217): Events::getAllUserInfo()
+#4 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(170): Events::logout('7f0000010b54000...', Array)
+#5 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"logout...')
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"logout...')
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#10 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#11 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#12 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#13 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#14 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#15 {main}
+2019-10-25 09:19:51 pid:1 Worker process terminated
+2019-10-25 09:21:52 pid:1 Predis\Response\ServerException: WRONGTYPE Operation against a key holding the wrong kind of value in D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php:370
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(335): Predis\Client->onErrorResponse(Object(Predis\Command\StringGet), Object(Predis\Response\Error))
+#1 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(314): Predis\Client->executeCommand(Object(Predis\Command\StringGet))
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(392): Predis\Client->__call('get', Array)
+#3 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(219): Events::getAllUserInfo()
+#4 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(170): Events::logout('7f0000010b54000...', Array)
+#5 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"logout...')
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"logout...')
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#10 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#11 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#12 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#13 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#14 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#15 {main}
+2019-10-25 09:21:52 pid:1 Worker process terminated
+2019-10-25 09:27:38 pid:1 Predis\Response\ServerException: WRONGTYPE Operation against a key holding the wrong kind of value in D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php:370
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(335): Predis\Client->onErrorResponse(Object(Predis\Command\StringGet), Object(Predis\Response\Error))
+#1 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(314): Predis\Client->executeCommand(Object(Predis\Command\StringGet))
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(396): Predis\Client->__call('get', Array)
+#3 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(219): Events::getAllUserInfo()
+#4 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(170): Events::logout('7f0000010b54000...', Array)
+#5 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"logout...')
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"logout...')
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#10 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#11 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#12 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#13 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#14 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#15 {main}
+2019-10-25 09:27:38 pid:1 Worker process terminated
+2019-10-25 09:28:44 pid:1 Predis\Response\ServerException: WRONGTYPE Operation against a key holding the wrong kind of value in D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php:370
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(335): Predis\Client->onErrorResponse(Object(Predis\Command\StringGet), Object(Predis\Response\Error))
+#1 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(314): Predis\Client->executeCommand(Object(Predis\Command\StringGet))
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(396): Predis\Client->__call('get', Array)
+#3 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(219): Events::getAllUserInfo()
+#4 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(170): Events::logout('7f0000010b54000...', Array)
+#5 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"logout...')
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"logout...')
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#10 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#11 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#12 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#13 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#14 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#15 {main}
+2019-10-25 09:28:44 pid:1 Worker process terminated
+2019-10-25 09:30:48 pid:1 Predis\Response\ServerException: WRONGTYPE Operation against a key holding the wrong kind of value in D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php:370
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(335): Predis\Client->onErrorResponse(Object(Predis\Command\StringGet), Object(Predis\Response\Error))
+#1 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(314): Predis\Client->executeCommand(Object(Predis\Command\StringGet))
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(396): Predis\Client->__call('get', Array)
+#3 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(219): Events::getAllUserInfo()
+#4 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(170): Events::logout('7f0000010b54000...', Array)
+#5 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"logout...')
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"logout...')
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#10 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#11 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#12 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#13 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#14 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#15 {main}
+2019-10-25 09:30:48 pid:1 Worker process terminated
+2019-10-25 09:30:51 pid:1 Predis\Response\ServerException: WRONGTYPE Operation against a key holding the wrong kind of value in D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php:370
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(335): Predis\Client->onErrorResponse(Object(Predis\Command\StringGet), Object(Predis\Response\Error))
+#1 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(314): Predis\Client->executeCommand(Object(Predis\Command\StringGet))
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(396): Predis\Client->__call('get', Array)
+#3 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(219): Events::getAllUserInfo()
+#4 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(170): Events::logout('7f0000010b54000...', Array)
+#5 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"logout...')
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"logout...')
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#10 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#11 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#12 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#13 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#14 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#15 {main}
+2019-10-25 09:30:51 pid:1 Worker process terminated
+2019-10-25 09:30:53 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-25 09:30:53 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-25 09:31:00 pid:1 Predis\Response\ServerException: WRONGTYPE Operation against a key holding the wrong kind of value in D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php:370
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(335): Predis\Client->onErrorResponse(Object(Predis\Command\StringGet), Object(Predis\Response\Error))
+#1 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(314): Predis\Client->executeCommand(Object(Predis\Command\StringGet))
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(396): Predis\Client->__call('get', Array)
+#3 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(219): Events::getAllUserInfo()
+#4 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(170): Events::logout('7f0000010b54000...', Array)
+#5 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"logout...')
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"logout...')
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#10 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#11 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#12 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#13 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#14 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#15 {main}
+2019-10-25 09:31:00 pid:1 Worker process terminated
+2019-10-25 09:31:01 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-25 09:31:01 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-25 09:31:06 pid:1 Predis\Response\ServerException: WRONGTYPE Operation against a key holding the wrong kind of value in D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php:370
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(335): Predis\Client->onErrorResponse(Object(Predis\Command\StringGet), Object(Predis\Response\Error))
+#1 D:\code001\GatewayWorker2\vendor\predis\predis\src\Client.php(314): Predis\Client->executeCommand(Object(Predis\Command\StringGet))
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(396): Predis\Client->__call('get', Array)
+#3 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(219): Events::getAllUserInfo()
+#4 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(170): Events::logout('7f0000010b54000...', Array)
+#5 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"logout...')
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"logout...')
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#10 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#11 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#12 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#13 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#14 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#15 {main}
+2019-10-25 09:31:06 pid:1 Worker process terminated
+2019-10-25 09:34:33 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:366
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(154): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 09:34:33 pid:1 Worker process terminated
+2019-10-25 09:34:47 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:366
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(154): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 09:34:47 pid:1 Worker process terminated
+2019-10-25 09:40:18 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:371
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(154): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 09:40:18 pid:1 Worker process terminated
+2019-10-25 09:40:36 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:371
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(154): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 09:40:36 pid:1 Worker process terminated
+2019-10-25 09:41:01 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:371
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(154): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 09:41:01 pid:1 Worker process terminated
+2019-10-25 09:46:20 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:238
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(178): Events::relogin('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type": "relog...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type": "relog...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 09:46:20 pid:1 Worker process terminated
+2019-10-25 09:46:21 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-25 09:46:21 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-25 09:46:25 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:238
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(178): Events::relogin('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type": "relog...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type": "relog...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 09:46:25 pid:1 Worker process terminated
+2019-10-25 09:46:28 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:238
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(178): Events::relogin('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type": "relog...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type": "relog...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 09:46:28 pid:1 Worker process terminated
+2019-10-25 10:53:29 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:429
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(154): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 10:53:29 pid:1 Worker process terminated
+2019-10-25 11:24:46 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:429
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(154): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 11:24:46 pid:1 Worker process terminated
+2019-10-25 11:25:23 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:238
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(178): Events::relogin('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type": "relog...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type": "relog...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 11:25:23 pid:1 Worker process terminated
+2019-10-25 11:25:48 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:429
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(154): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 11:25:48 pid:1 Worker process terminated
+2019-10-25 11:25:55 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:429
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(154): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 11:25:55 pid:1 Worker process terminated
+2019-10-25 11:27:18 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:429
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(154): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 11:27:18 pid:1 Worker process terminated
+2019-10-25 11:27:27 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:272
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(178): Events::relogin('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type": "relog...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type": "relog...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 11:27:27 pid:1 Worker process terminated
+2019-10-25 11:27:59 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:463
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(154): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 11:27:59 pid:1 Worker process terminated
+2019-10-25 11:28:22 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:463
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(154): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 11:28:22 pid:1 Worker process terminated
+2019-10-25 11:28:57 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:463
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(154): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 11:28:57 pid:1 Worker process terminated
+2019-10-25 11:28:58 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-25 11:28:58 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-25 11:29:02 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:269
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(178): Events::relogin('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type": "relog...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type": "relog...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 11:29:02 pid:1 Worker process terminated
+2019-10-25 11:29:26 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:456
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(154): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 11:29:26 pid:1 Worker process terminated
+2019-10-25 11:30:19 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:456
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(154): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 11:30:19 pid:1 Worker process terminated
+2019-10-25 11:32:29 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:282
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(188): Events::relogin('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type": "relog...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type": "relog...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 11:32:29 pid:1 Worker process terminated
+2019-10-25 11:32:30 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-25 11:32:30 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-10-25 11:32:34 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:282
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(188): Events::relogin('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type": "relog...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type": "relog...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 11:32:34 pid:1 Worker process terminated
+2019-10-25 11:33:09 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:282
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(188): Events::relogin('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type": "relog...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type": "relog...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 11:33:09 pid:1 Worker process terminated
+2019-10-25 11:33:12 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:473
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(154): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 11:33:12 pid:1 Worker process terminated
+2019-10-25 11:33:34 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:473
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(154): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 11:33:34 pid:1 Worker process terminated
+2019-10-25 11:35:16 pid:1 Error: Call to undefined method Events::sendMsgRecord() in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:473
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(154): Events::login('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#2 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-10-25 11:35:16 pid:1 Worker process terminated
+2019-10-25 11:44:32 pid:1 Error: Access to undeclared static property: Workerman\Worker::$_config in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:518
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(282): Events::sendMsgRecord()
+#1 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(188): Events::relogin('7f0000010b54000...', Array)
+#2 [internal function]: Events::onMessage('7f0000010b54000...', '{"type": "relog...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type": "relog...')
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#6 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#7 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#10 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#11 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2019-10-25 11:44:32 pid:1 Worker process terminated
+2019-10-25 11:44:42 pid:1 Error: Access to undeclared static property: Workerman\Worker::$_config in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:518
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(479): Events::sendMsgRecord()
+#1 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(154): Events::login('7f0000010b54000...', Array)
+#2 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#6 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#7 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#10 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#11 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2019-10-25 11:44:42 pid:1 Worker process terminated
+2019-10-25 11:44:47 pid:1 Error: Access to undeclared static property: Workerman\Worker::$_config in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:518
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(282): Events::sendMsgRecord()
+#1 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(188): Events::relogin('7f0000010b54000...', Array)
+#2 [internal function]: Events::onMessage('7f0000010b54000...', '{"type": "relog...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type": "relog...')
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#6 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#7 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#10 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#11 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2019-10-25 11:44:47 pid:1 Worker process terminated
+2019-10-25 11:44:53 pid:1 Error: Access to undeclared static property: Workerman\Worker::$_config in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:518
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(282): Events::sendMsgRecord()
+#1 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(188): Events::relogin('7f0000010b54000...', Array)
+#2 [internal function]: Events::onMessage('7f0000010b54000...', '{"type": "relog...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type": "relog...')
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#6 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#7 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#10 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#11 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2019-10-25 11:44:53 pid:1 Worker process terminated
+2019-10-25 11:45:04 pid:1 Error: Access to undeclared static property: Workerman\Worker::$_config in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:518
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(479): Events::sendMsgRecord()
+#1 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(154): Events::login('7f0000010b54000...', Array)
+#2 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#6 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#7 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#10 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#11 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2019-10-25 11:45:04 pid:1 Worker process terminated
+2019-10-25 11:45:30 pid:1 Error: Access to undeclared static property: Workerman\Worker::$_config in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:518
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(479): Events::sendMsgRecord()
+#1 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(154): Events::login('7f0000010b54000...', Array)
+#2 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"login"...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"login"...')
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#6 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#7 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#10 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#11 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2019-10-25 11:45:30 pid:1 Worker process terminated
+2019-10-25 11:46:44 pid:1 Error: Access to undeclared static property: Workerman\Worker::$_config in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:518
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(282): Events::sendMsgRecord()
+#1 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(188): Events::relogin('7f0000010b54000...', Array)
+#2 [internal function]: Events::onMessage('7f0000010b54000...', '{"type": "relog...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type": "relog...')
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#6 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#7 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#10 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#11 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2019-10-25 11:46:44 pid:1 Worker process terminated
+2019-10-25 11:46:49 pid:1 Error: Access to undeclared static property: Workerman\Worker::$_config in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:518
+Stack trace:
+#0 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(282): Events::sendMsgRecord()
+#1 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(188): Events::relogin('7f0000010b54000...', Array)
+#2 [internal function]: Events::onMessage('7f0000010b54000...', '{"type": "relog...')
+#3 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type": "relog...')
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Events\Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#6 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2382): Workerman\Events\Select->loop()
+#7 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#10 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#11 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2019-10-25 11:46:49 pid:1 Worker process terminated
+2019-10-25 12:14:51 pid:1 Error: Class 'Factory' not found in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:67
+Stack trace:
+#0 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#1 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#2 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2367): GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#6 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#7 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#8 {main}
+2019-10-25 12:14:52 pid:1 Worker process terminated
+2019-10-25 12:14:53 pid:1 Error: Class 'Factory' not found in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:67
+Stack trace:
+#0 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#1 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#2 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2367): GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#6 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#7 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#8 {main}
+2019-10-25 12:14:54 pid:1 Worker process terminated
+2019-10-25 12:14:55 pid:1 Error: Class 'Factory' not found in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:67
+Stack trace:
+#0 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#1 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#2 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2367): GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#6 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#7 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#8 {main}
+2019-10-25 12:15:42 pid:1 Error: Class 'Clue\React\Redis\Factory' not found in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:69
+Stack trace:
+#0 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#1 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#2 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2367): GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#6 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#7 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#8 {main}
+2019-10-25 12:15:43 pid:1 Worker process terminated
+2019-10-25 12:27:28 pid:1 Error: Class 'Timer' not found in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:73
+Stack trace:
+#0 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#1 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#2 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2367): GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#6 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#7 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#8 {main}
+2019-10-25 12:27:29 pid:1 Worker process terminated
+2019-10-25 12:27:30 pid:1 Error: Class 'Timer' not found in D:\code001\GatewayWorker2\Applications\YourApp\Events.php:73
+Stack trace:
+#0 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#1 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#2 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2367): GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#4 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#6 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#7 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#8 {main}
+2019-11-04 12:20:05 pid:1 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in D:\code001\GatewayWorker2\vendor\workerman\mysql\src\Connection.php:1711
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\workerman\mysql\src\Connection.php(1711): PDO->__construct('mysql:dbname=ch...', 'root', '123456', Array)
+#1 D:\code001\GatewayWorker2\vendor\workerman\mysql\src\Connection.php(1698): Workerman\MySQL\Connection->connect()
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(54): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '123456', 'chat')
+#3 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2367): GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-11-04 12:20:06 pid:1 Worker process terminated
+2019-11-04 12:20:07 pid:1 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in D:\code001\GatewayWorker2\vendor\workerman\mysql\src\Connection.php:1711
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\workerman\mysql\src\Connection.php(1711): PDO->__construct('mysql:dbname=ch...', 'root', '123456', Array)
+#1 D:\code001\GatewayWorker2\vendor\workerman\mysql\src\Connection.php(1698): Workerman\MySQL\Connection->connect()
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(54): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '123456', 'chat')
+#3 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2367): GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-11-04 12:20:08 pid:1 Worker process terminated
+2019-11-04 12:20:09 pid:1 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in D:\code001\GatewayWorker2\vendor\workerman\mysql\src\Connection.php:1711
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\workerman\mysql\src\Connection.php(1711): PDO->__construct('mysql:dbname=ch...', 'root', '123456', Array)
+#1 D:\code001\GatewayWorker2\vendor\workerman\mysql\src\Connection.php(1698): Workerman\MySQL\Connection->connect()
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(54): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '123456', 'chat')
+#3 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2367): GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-11-04 12:20:10 pid:1 Worker process terminated
+2019-11-04 12:20:11 pid:1 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in D:\code001\GatewayWorker2\vendor\workerman\mysql\src\Connection.php:1711
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\workerman\mysql\src\Connection.php(1711): PDO->__construct('mysql:dbname=ch...', 'root', '123456', Array)
+#1 D:\code001\GatewayWorker2\vendor\workerman\mysql\src\Connection.php(1698): Workerman\MySQL\Connection->connect()
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(54): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '123456', 'chat')
+#3 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2367): GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-11-04 12:20:12 pid:1 Worker process terminated
+2019-11-04 12:20:37 pid:1 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in D:\code001\GatewayWorker2\vendor\workerman\mysql\src\Connection.php:1711
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\workerman\mysql\src\Connection.php(1711): PDO->__construct('mysql:dbname=ch...', 'root', '123456', Array)
+#1 D:\code001\GatewayWorker2\vendor\workerman\mysql\src\Connection.php(1698): Workerman\MySQL\Connection->connect()
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(54): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '123456', 'chat')
+#3 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2367): GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-11-04 12:20:38 pid:1 Worker process terminated
+2019-11-04 12:20:39 pid:1 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in D:\code001\GatewayWorker2\vendor\workerman\mysql\src\Connection.php:1711
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\workerman\mysql\src\Connection.php(1711): PDO->__construct('mysql:dbname=ch...', 'root', '123456', Array)
+#1 D:\code001\GatewayWorker2\vendor\workerman\mysql\src\Connection.php(1698): Workerman\MySQL\Connection->connect()
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(54): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '123456', 'chat')
+#3 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2367): GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-11-04 12:20:40 pid:1 Worker process terminated
+2019-11-04 12:20:40 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-11-04 12:20:40 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2019-11-04 12:20:41 pid:1 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in D:\code001\GatewayWorker2\vendor\workerman\mysql\src\Connection.php:1711
+Stack trace:
+#0 D:\code001\GatewayWorker2\vendor\workerman\mysql\src\Connection.php(1711): PDO->__construct('mysql:dbname=ch...', 'root', '123456', Array)
+#1 D:\code001\GatewayWorker2\vendor\workerman\mysql\src\Connection.php(1698): Workerman\MySQL\Connection->connect()
+#2 D:\code001\GatewayWorker2\Applications\YourApp\Events.php(54): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '123456', 'chat')
+#3 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#5 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(2367): GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#6 D:\code001\GatewayWorker2\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1353): GatewayWorker\BusinessWorker->run()
+#8 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(1296): Workerman\Worker::forkWorkersForWindows()
+#9 D:\code001\GatewayWorker2\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\code001\GatewayWorker2\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-11-04 12:20:42 pid:1 Worker process terminated
