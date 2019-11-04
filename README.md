@@ -1,8 +1,14 @@
-## 版本
+##安装说明 
 
-version：1.0.0
+* chat_server 是使用了workerman实现的服务端，直接点击start_for_win.bat 启动即可，没有在linux下面测
+* chat_client 是前端，基于vue实现
+* 我使用的是win10的环境，本地要安装mysql和redis，数据库配置都在Event.php那个文件里面
+* chat_client缺库的话就使用npm安装
+* chat_server缺库的话就使用composer安装 
+* 就这些了，很简单
 
-## 本期版本功能
+
+## 功能说明
 
 * 群聊
 * 登陆、退出登陆
